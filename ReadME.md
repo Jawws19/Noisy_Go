@@ -1,29 +1,14 @@
-<<<<<<< HEAD
-Apologies for the confusion! Here is the entire content formatted in **Markdown**, fully wrapped for direct copying into your `README.md`:
-
-```markdown
-=======
-
->>>>>>> a07de31b449466fdb3def4b47179307c66fcb068
 # Noisy Go
 
 **Noisy Go** is a Go implementation inspired by the original [Noisy Project](https://github.com/1tayH/noisy). It generates random web traffic using various protocols, HTTP methods, and user-agents to simulate realistic browsing behavior across a list of domains.
 
 ## Features
 
-<<<<<<< HEAD
-- 🌐 **Randomized Protocols**: Randomly selects between `http` and `https`.
-- 📨 **Randomized HTTP Methods**: Supports random selection between `GET`, `POST`, `PUT`, `DELETE`, `HEAD`.
-- 👤 **Randomized User-Agents**: Uses a set of popular user-agent strings from different browsers and platforms.
-- ⚙️ **Configurable Domains**: Loads a list of domains from a YAML configuration file.
-- 🚀 **Concurrent Requests**: Simulates multiple requests concurrently with customizable delays.
-=======
 - 🌐 Randomized Protocols: Randomly selects between `http` and `https`.
 - 📨 Randomized HTTP Methods: Supports random selection between `GET`, `POST`, `PUT`, `DELETE`, `HEAD`.
 - 👤 Randomized User-Agents: Uses a set of popular user-agent strings from different browsers and platforms.
 - ⚙️ Configurable Domains: Loads a list of domains from a YAML configuration file.
 - 🚀 Concurrent Requests: Simulates multiple requests concurrently with customizable delays.
->>>>>>> a07de31b449466fdb3def4b47179307c66fcb068
 
 ## Table of Contents
 
@@ -41,13 +26,8 @@ Apologies for the confusion! Here is the entire content formatted in **Markdown*
 
 ## Requirements
 
-<<<<<<< HEAD
-- [Go](https://golang.org/dl/) 1.18 or later
-- A YAML file with the list of domains
-=======
 - Go 1.18 or later
 - A YAML file with the list of domains.
->>>>>>> a07de31b449466fdb3def4b47179307c66fcb068
 
 ## Setup
 
@@ -69,11 +49,6 @@ Ensure that the `domains.yaml` file contains the list of domains to simulate tra
 - domain: google.com
 - domain: facebook.com
 ```
-<<<<<<< HEAD
-
-You can also include other domains as per your needs.
-=======
->>>>>>> a07de31b449466fdb3def4b47179307c66fcb068
 
 ### Run the Project
 
@@ -104,19 +79,11 @@ Alternatively, you can set the configuration file path via an environment variab
 export NOISY_CONFIG_PATH=your_domains.yaml
 go run ./cmd
 ```
-<<<<<<< HEAD
-=======
-
-## Usage
->>>>>>> a07de31b449466fdb3def4b47179307c66fcb068
 
 ## Usage
 
-<<<<<<< HEAD
-When running the project, you will be prompted to enter a **minimum delay** and **maximum delay** between site visits (in seconds). This allows you to customize the intervals for the simulated requests.
+When running the project, you will be prompted to enter a minimum delay and maximum delay between site visits (in seconds). This allows you to customize the intervals for the simulated requests.
 
-=======
->>>>>>> a07de31b449466fdb3def4b47179307c66fcb068
 ### Example Commands
 
 ```bash
@@ -153,12 +120,7 @@ Contributions are welcome! If you’d like to improve the project or suggest new
 This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**, in accordance with the original project's license. For more information, see the [LICENSE](./LICENSE) file.
 
 ## Credits
-<<<<<<< HEAD
 
 This project is heavily inspired by the original [Noisy Project](https://github.com/1tayH/noisy) by **1tayH**. While this implementation is written in Go for improved performance, the overall idea and design are derived from the original project.
 ```
-=======
->>>>>>> a07de31b449466fdb3def4b47179307c66fcb068
 
-This project is heavily inspired by the original [Noisy Project](https://github.com/1tayH/noisy) by **1tayH**. While this implementation is written in Go for improved performance, the overall idea and design are derived from the original project.
-```
