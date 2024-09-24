@@ -1,6 +1,4 @@
 
-
-```markdown
 # Noisy Go
 
 **Noisy Go** is a Go implementation inspired by the original [Noisy Project](https://github.com/1tayH/noisy). It generates random web traffic using various protocols, HTTP methods, and user-agents to simulate realistic browsing behavior across a list of domains.
